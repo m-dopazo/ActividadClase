@@ -1,0 +1,22 @@
+#form{
+    background-color: rgb(255, 188, 120);
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    margin-top: 20vh;
+    padding:10px
+}
+
+#form *{
+    text-align: center;
+    width: 50%;
+    margin:auto;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+#form button{
+    margin-top:10px;
+    width:auto;
+    background-color: rgb(153, 85, 18);
+}
