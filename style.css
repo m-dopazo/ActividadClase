@@ -1,11 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 #form{
     background-color: rgb(255, 188, 120);
-    width: 50%;
+    width: 33%;
     display: flex;
     flex-flow: column;
     margin: auto;
     margin-top: 20vh;
-    padding:10px
+    padding:10px;
+    border-radius: 5vw;
 }
 
 #form *{
@@ -13,10 +17,14 @@
     width: 50%;
     margin:auto;
     margin-bottom: 5px;
-    border-radius: 10px;
 }
+
 #form button{
-    margin-top:10px;
-    width:auto;
+    margin-top:5px;
+    width:25%;
     background-color: rgb(153, 85, 18);
+}
+input, button{
+    border: 2px solid white ;
+    border-radius: 10px;
 }
